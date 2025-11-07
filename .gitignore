@@ -1,0 +1,101 @@
+# =========================
+# 📦 Node & Package Managers
+# =========================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# 🏗️ Build & Output
+# =========================
+dist/
+build/
+.cache/
+.next/
+out/
+temp/
+tmp/
+
+# =========================
+# 🧠 TypeScript
+# =========================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =========================
+# ⚙️ Environment Files
+# =========================
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# 🧹 Logs & Reports
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+coverage/
+*.lcov
+
+# =========================
+# 💻 Editors & IDEs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# =========================
+# 🧱 OS & System Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.bak
+
+# =========================
+# 🧰 Testing
+# =========================
+jest-cache/
+jest/
+coverage/
+*.spec.ts
+*.spec.js
+*.test.ts
+*.test.js
+
+# =========================
+# 🧩 Misc
+# =========================
+*.tgz
+*.zip
+*.tar
+*.gz
+*.7z
+
+# =========================
+# 🚀 React Specific
+# =========================
+*.eslintcache
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.cache/
+.npm/
+.eslintcache
+public/static/
+public/assets/
