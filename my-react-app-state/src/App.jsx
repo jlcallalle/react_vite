@@ -1,11 +1,13 @@
-import CounterWithEffect from "./components/CounterWithEffect";
+// import CounterWithEffect from "./components/CounterWithEffect";
+import Counter from "./components/Counter";
 
 import './App.css'
 
 function App() {
   return (
     <>
-      <CounterWithEffect />
+      {/* <CounterWithEffect /> */}
+      <Counter />
     </>
   )
 }
