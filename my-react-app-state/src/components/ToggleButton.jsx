@@ -4,9 +4,12 @@ const ToggleButton = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <button onClick={() => setIsActive(!isActive)}>
-      {isActive ? "Activo" : "Inactivo"}
-    </button>
+    <div>
+      <button onClick={() => setIsActive(!isActive)}>
+        {isActive ? "Activo" : "Inactivo"}
+      </button>
+      <p>Valor actual: {String(isActive)}</p>
+    </div>
   )
 }
 
