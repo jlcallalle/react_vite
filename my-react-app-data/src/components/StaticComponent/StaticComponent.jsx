@@ -1,5 +1,5 @@
 const StaticComponent = () => {
-  const items = ["Manzana", "Banana", "Cereza"];
+  const items = ["Manzana", "Banana", "Cereza", "Fresa"];
 
   return (
     <ul>
