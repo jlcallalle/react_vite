@@ -33,8 +33,8 @@ const UserList = () => {
   }
 
   return (
-    <div>
-      <h1>Lista de Usuarios</h1>
+    <div className="card box">
+      <h2>Lista de Usuarios con loading</h2>
       <ul>
         {
           users.map((user) => (

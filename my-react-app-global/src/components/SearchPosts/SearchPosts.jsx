@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 const SearchPosts = () => {
   const [query, setQuery] = useState(""); 
-  //query captura el valor del input y setQuery lo actualiza
   const [posts, setPosts] = useState([]);
+  //query captura el valor del input y setQuery lo actualiza
   //posts almacena los datos obtenidos de la API y setPosts los actualiza
 
   useEffect(() => {
@@ -14,8 +14,8 @@ const SearchPosts = () => {
   }, [query])
 
   return (
-    <div>
-      <h1>Lista de Usuarios</h1>
+    <div className="card box">
+      <h2>Lista de Usuarios</h2>
       <input
         type="text"
         placeholder="Buscar por título"
@@ -34,3 +34,4 @@ const SearchPosts = () => {
 }
 
 export default SearchPosts;
+// https://jsonplaceholder.typicode.com/posts?title_like=molestias

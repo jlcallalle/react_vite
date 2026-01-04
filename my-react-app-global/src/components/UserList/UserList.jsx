@@ -12,7 +12,7 @@ const UserList = () => {
 
   return (
     <div className="card box">
-      <h1>Lista de Usuarios</h1>
+      <h2>Lista de Usuarios</h2>
       <ul>
         {
           users.map((user) => (

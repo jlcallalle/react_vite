@@ -2,8 +2,8 @@
 // import Estados from "./pages/estado"
 import StaticComponent from "./components/StaticComponent/StaticComponent"
 import UserList from "./components/UserList/UserList"
-// import SearchPosts from "./components/SearchPosts/SearchPosts"
-// import UserList from "./components/UserListWithLoading/UserListWithLoading"
+import UserListWithLoading from "./components/UserListWithLoading/UserListWithLoading"
+import SearchPosts from "./components/SearchPosts/SearchPosts"
 
 import "./App.css"
 
@@ -14,7 +14,8 @@ function App() {
       {/* <Estados /> */}
       <StaticComponent />
       <UserList />
-      {/* <SearchPosts /> */}
+      <UserListWithLoading />
+      <SearchPosts />
     </>
   )
 }
