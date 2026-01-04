@@ -11,7 +11,7 @@ const UserList = () => {
   }, [])
 
   return (
-    <div>
+    <div className="card box">
       <h1>Lista de Usuarios</h1>
       <ul>
         {
