@@ -1,5 +1,6 @@
 import Counter from "../components/Counter"
 import ToggleButton from "../components/ToggleButton"
+import NameForm from "../components/NameForm";
 
 const App = () => {
 
@@ -7,6 +8,8 @@ const App = () => {
     <div>
       <Counter/>
       <ToggleButton />
+      <h2>Formulario de Nombre</h2>
+      <NameForm />
     </div>
   )
 }
