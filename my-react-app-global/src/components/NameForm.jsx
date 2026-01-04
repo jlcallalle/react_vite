@@ -5,6 +5,7 @@ const NameForm = () => {
 
   return (
     <div className="card box">
+      <h2>Formulario de Nombre</h2>
       <input
         type="text"
         placeholder="Ingresa tu nombre"

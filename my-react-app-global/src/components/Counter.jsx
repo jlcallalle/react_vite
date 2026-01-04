@@ -8,6 +8,7 @@ const Counter = () => {
 
   return (
     <div className="card box">
+      <h2>Contador simple</h2>
       <p>El contador está en: {count}</p>
       <button onClick={() => setCount(count + 1)}>Incrementar</button>
       <button onClick={() => setCount(count - 1)}>Decrementar</button>

@@ -1,6 +1,7 @@
 import Counter from "../components/Counter"
 import ToggleButton from "../components/ToggleButton"
 import NameForm from "../components/NameForm";
+import CounterWithEffect from "../components/CounterWithEffect";
 
 const App = () => {
 
@@ -8,12 +9,10 @@ const App = () => {
     <div>
       <Counter/>
       <ToggleButton />
-      <h2>Formulario de Nombre</h2>
       <NameForm />
+      <CounterWithEffect />
     </div>
   )
 }
 
 export default App;
-
-//useState es un Hook de React que permite agregar estado a los componentes funcionales.

@@ -5,6 +5,7 @@ const ToggleButton = () => {
 
   return (
     <div className="card box">
+      <h2>Evento ToggleButton</h2>
       <button onClick={() => setIsActive(!isActive)}>
         {isActive ? "Activo" : "Inactivo"}
       </button>
