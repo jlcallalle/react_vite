@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 
 const SearchPosts = () => {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(""); 
+  //query captura el valor del input y setQuery lo actualiza
   const [posts, setPosts] = useState([]);
+  //posts almacena los datos obtenidos de la API y setPosts los actualiza
 
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/posts?title_like=${query}`)
